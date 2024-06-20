@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 200px; /* Largeur de la sidebar */
+  background-color: #f8f9fa;
+  height: 100vh; /* Hauteur de la sidebar pour qu'elle prenne tout l'écran */
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
